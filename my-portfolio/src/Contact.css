@@ -80,6 +80,25 @@ textarea{
 .textarea-flex{
     display: flex;
 }
+@media (max-width: 600px) {
+  .contact-list {
+    width: 90%;   /* make container shrink */
+    padding: 10px;
+  }
+
+  .input-flex {
+    flex-direction: column; /* stack inputs vertically */
+    gap: 10px;
+  }
+
+  input {
+    width: 100%; /* full width for small screens */
+  }
+
+  textarea {
+    width: 100%; /* already full width but just to be safe */
+  }
+}
 .textarea-flex label{
      display: block;
     font-weight: bold;
