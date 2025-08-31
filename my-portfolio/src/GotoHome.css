@@ -1,0 +1,14 @@
+.goto-home{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    max-width: 800px;
+    margin: auto;
+}
+.goto-home svg{
+     font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;  /* Tailwind cyan-500 */
+color: white;
+box-shadow: 0 0 15px rgba(6, 182, 212, 0.6);
+}
